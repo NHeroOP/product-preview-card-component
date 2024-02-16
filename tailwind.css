@@ -548,17 +548,9 @@ video {
   margin: 2rem;
 }
 
-.m-1 {
-  margin: 0.25rem;
-}
-
-.m-2 {
-  margin: 0.5rem;
-}
-
-.my-\[1\.8rem\] {
-  margin-top: 1.8rem;
-  margin-bottom: 1.8rem;
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .my-4 {
@@ -566,34 +558,13 @@ video {
   margin-bottom: 1rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+.my-\[1\.8rem\] {
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
 }
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mb-\[1\.8rem\] {
-  margin-bottom: 1.8rem;
-}
-
-.mb-\[1rem\] {
-  margin-bottom: 1rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -608,8 +579,8 @@ video {
   display: none;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
+.h-full {
+  height: 100%;
 }
 
 .w-full {
@@ -624,16 +595,8 @@ video {
   max-width: 36rem;
 }
 
-.max-w-full {
-  max-width: 100%;
-}
-
 .flex-col {
   flex-direction: column;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .items-center {
@@ -644,16 +607,12 @@ video {
   justify-content: center;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .rounded-2xl {
@@ -664,33 +623,9 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-l-2xl {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
-}
-
-.rounded-l {
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
-.rounded-r {
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
-}
-
-.rounded-s {
-  border-start-start-radius: 0.25rem;
-  border-end-start-radius: 0.25rem;
-}
-
-.rounded-t {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
 }
 
 .rounded-t-2xl {
@@ -722,19 +657,11 @@ video {
   font-family: 'Fraunces';
 }
 
-.font-\[bold\] {
-  font-family: bold;
-}
-
 .text-\[2rem\] {
   font-size: 2rem;
 }
 
 .font-bold {
-  font-weight: 700;
-}
-
-.font-\[700\] {
   font-weight: 700;
 }
 
@@ -774,16 +701,20 @@ video {
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  height: 100vh;
-  margin: 0px;
   font-family: "Montserrat";
   font-size: 14px;
 }
 
-h1 {
-  margin: 0px;
-}
+/* main {
+  height: 100%;
+} */
 
 @media (min-width: 768px) {
   .md\:mb-\[1\.8rem\] {
